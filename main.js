@@ -7,7 +7,7 @@ var last_position_of_x, last_position_of_y;
     color = "black";
     width_of_line = 2;
 var width=screen.width;
-newwidth=screen.width=70;
+newwidth=screen.width-70;
 newheight=screen.height-300;
 if (width<992){
 canvas.width=newwidth;
